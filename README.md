@@ -1,2 +1,2 @@
 # Blessing
-Bkessing e-comerce store
+Blessing e-comerce store

@@ -17,6 +17,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+# urlpatterns = [
+    
+# ]
+
+from django.urls import path
+from .views import product_list
+
+app_name = 'app'  # Replace 'app' with the name of your Django application
+
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path('products/', product_list, name='product_list'),
+    # Add more URL patterns as needed
 ]
